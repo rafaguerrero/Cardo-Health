@@ -4,12 +4,12 @@ import List from '../../components/List';
 import './styles.scss';
 
 function Home() {
-  return (
-    <div className='page-home'>
-      <Header />
-      <List />
-    </div>
-  );
+    return (
+        <div className="page-home">
+            <Header />
+            <List />
+        </div>
+    );
 }
 
 export default Home;

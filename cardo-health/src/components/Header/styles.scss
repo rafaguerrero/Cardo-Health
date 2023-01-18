@@ -1,13 +1,13 @@
 .comp-header {
-  position: static;
-  background-color: #DDD;
-  padding: 10px;
-  box-shadow: 0px -15px 15px 15px #000000;
-  display: flex;
-  justify-content: space-between;
-  
-  img {
-    height: 30px;
-    cursor: pointer;
-  }
+    position: static;
+    background-color: #ddd;
+    padding: 10px;
+    box-shadow: 0px -15px 15px 15px #000000;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        height: 30px;
+        cursor: pointer;
+    }
 }

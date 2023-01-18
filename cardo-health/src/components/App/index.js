@@ -9,18 +9,18 @@ import NotFound from '../../pages/NotFound';
 import './styles.scss';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route element={<PrivateRoutes/>}>
-          <Route exact title="Home" path="/" element={<Home/>} />
-          <Route path="/*" title="Not Found" element={<NotFound/>} />
-        </Route>
+    return (
+        <Router>
+            <Routes>
+                <Route element={<PrivateRoutes />}>
+                    <Route exact title="Home" path="/" element={<Home />} />
+                    <Route path="/*" title="Not Found" element={<NotFound />} />
+                </Route>
 
-        <Route exact title="Login" path="/login" element={<Login/>} />
-      </Routes>
-    </Router>
-  );
+                <Route exact title="Login" path="/login" element={<Login />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
