@@ -1,3 +1,6 @@
 node_modules
+
 cardo-health-api/node_modules
+
+cardo-health-app/.env
 cardo-health-app/node_modules
