@@ -15,7 +15,7 @@ export const authAPI = async (path, data = {}) => {
 
     if (authToken) options.headers['Authorization'] = authToken;
 
-    return fetch('http://localhost:3001/' + path, options)
+    return fetch(`http://${window.location.hostname}:3001/${path}`, options)
         .then((res) => {
             if (res.ok) return res.json();
             throw new Error('There was an error');
