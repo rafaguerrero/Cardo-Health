@@ -15,6 +15,7 @@ describe('Utils Auth API', () => {
     beforeEach(() => {
         const location = {};
         Object.defineProperty(location, 'href', { value: '/', writable: true });
+        Object.defineProperty(location, 'hostname', { value: 'localhost', writable: false });
 
         alertMock = jest.fn();
 
